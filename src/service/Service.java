@@ -12,15 +12,12 @@ public class Service {
     this.age = age;
   }
 
-  public void sendInDataBase(Service age){
-    if(!validator.validate(age)){return ;}
-     dataBase.add(age);
-  }
-   public boolean isAdult(){
-     if(Integer.parseInt(age) < 18){
-       return false;
-   }
 
-     return true;
-   }
+  public boolean isAdult() {
+    if (Integer.parseInt(age) < 18) {
+      return false;
+    }
+
+    return true;
+  }
 }

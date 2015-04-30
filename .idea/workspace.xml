@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58736968-c8b7-4ce4-92e9-f5a73ba4c7af" name="Default" comment="More changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/ServiceValidatorImpl.java" afterPath="$PROJECT_DIR$/src/service/ServiceValidatorImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestingWithJMock.iml" afterPath="$PROJECT_DIR$/TestingWithJMock.iml" />
+    <list default="true" id="58736968-c8b7-4ce4-92e9-f5a73ba4c7af" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/DataBaseImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/service/ServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/Service.java" afterPath="$PROJECT_DIR$/src/service/Service.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestingWhitJMock.iws" />
@@ -72,7 +72,54 @@
       <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="14" column="0" selection-start="242" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="24" selection-start="714" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="6" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageValidatorImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MessageSystem/MessageValidatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="11" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Publisher.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MessageSystem/Publisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.5518395" vertical-offset="0" max-vertical-offset="598">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MessageSystem/Receiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -96,21 +143,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceValidatorImplTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java">
+      <file leaf-file-name="DataBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.82258064" vertical-offset="0" max-vertical-offset="620">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="23" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/DataBase.java">
+      <file leaf-file-name="DataBaseImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/DataBaseImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="6" column="1" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -141,10 +186,12 @@
         <option value="$PROJECT_DIR$/src/service/DataBase.java" />
         <option value="$PROJECT_DIR$/src/MessageSystem/MessageValidatorImpl.java" />
         <option value="$PROJECT_DIR$/src/service/ServiceValidator.java" />
-        <option value="$PROJECT_DIR$/src/service/Service.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/service/ServiceValidatorImpl.java" />
         <option value="$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/service/DataBaseImpl.java" />
+        <option value="$PROJECT_DIR$/test/service/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/service/Service.java" />
       </list>
     </option>
   </component>
@@ -230,6 +277,10 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -242,6 +293,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,29 +364,7 @@
       <recent name="MessageSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceValidatorImplTest.ValidateTooOld">
-    <configuration default="false" name="MessageValidatorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingWhitJMock" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MessageSystem" />
-      <option name="MAIN_CLASS_NAME" value="MessageSystem.MessageValidatorImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ServiceTest.SendInDataBase">
     <configuration default="false" name="MessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingWhitJMock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -405,6 +438,28 @@
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.ServiceValidatorImplTest" />
       <option name="METHOD_NAME" value="ValidateTooOld" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ServiceTest.SendInDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingWithJMock" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="METHOD_NAME" value="SendInDataBase" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -548,19 +603,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MessageValidatorImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MessageTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.Validate" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateToYoung" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateTooOld" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MessageTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.Validate" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateToYoung" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateTooOld" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ServiceTest.SendInDataBase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateTooOld" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateToYoung" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.Validate" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MessageTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MessageValidatorImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ServiceTest.SendInDataBase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateTooOld" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.ValidateToYoung" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ServiceValidatorImplTest.Validate" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MessageTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -600,7 +655,11 @@
       <created>1430395348409</created>
       <updated>1430395348409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add test about validator">
+      <created>1430397077992</created>
+      <updated>1430397077992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -624,7 +683,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498621" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -648,7 +707,8 @@
     <MESSAGE value="Some changes&#10;" />
     <MESSAGE value="More changes" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add test about validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test about validator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -733,34 +793,14 @@
         <state line="5" column="15" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageValidatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="0" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="855" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageSystem/MessageValidatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MessageSystem/MessageValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="28" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07995736" vertical-offset="0" max-vertical-offset="938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Publisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="95" selection-end="95" vertical-scroll-proportion="0.07995736" vertical-offset="0" max-vertical-offset="938" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -770,23 +810,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/ServiceValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/hamcrest-all-1.3.jar!/org/hamcrest/MatcherAssert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.54371" vertical-offset="0" max-vertical-offset="938">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ServiceValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
@@ -800,17 +842,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="5" column="23" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.82258064" vertical-offset="0" max-vertical-offset="620">
+        <state line="8" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="242" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="24" selection-start="714" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/DataBaseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="6" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MessageSystem/MessageValidatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.5518395" vertical-offset="0" max-vertical-offset="598">
+          <folding />
         </state>
       </provider>
     </entry>
