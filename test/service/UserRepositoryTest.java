@@ -10,7 +10,7 @@ import org.junit.Test;
 /**
  * Created by Zornitsa Petkova on 4/30/15.
  */
-public class ServiceTest {
+public class UserRepositoryTest {
 
 
   @Rule

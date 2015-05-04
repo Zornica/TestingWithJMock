@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58736968-c8b7-4ce4-92e9-f5a73ba4c7af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" afterPath="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/service/ServiceTest.java" afterPath="$PROJECT_DIR$/test/service/UserRepositoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestingWhitJMock.iws" />
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
+      <file leaf-file-name="UserRepositoryTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/service/UserRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="960">
+            <state line="12" column="27" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="960">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +90,7 @@
       <file leaf-file-name="AgeValidatorImplTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/service/AgeValidatorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="15" selection-start="552" selection-end="552" vertical-scroll-proportion="0.67741936" vertical-offset="0" max-vertical-offset="620">
+            <state line="33" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.7983871" vertical-offset="0" max-vertical-offset="620">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,8 +169,9 @@
         <option value="$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java" />
         <option value="$PROJECT_DIR$/src/service/ServiceValidatorImpl.java" />
         <option value="$PROJECT_DIR$/src/service/AgeValidatorImpl.java" />
-        <option value="$PROJECT_DIR$/test/service/ServiceTest.java" />
         <option value="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" />
+        <option value="$PROJECT_DIR$/test/service/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/test/service/UserRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -345,12 +346,12 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MessageValidatorImplTest">
-    <configuration default="false" name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingWithJMock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="service.UserRepositoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -367,12 +368,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ServiceTest.notSendInDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserRepositoryTest.notSendInDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingWithJMock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="service.UserRepositoryTest" />
       <option name="METHOD_NAME" value="notSendInDataBase" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -583,8 +584,8 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ServiceTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceTest.notSendInDataBase" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.notSendInDataBase" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.AgeValidatorImplTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.MessageTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.MessageValidatorImplTest" />
@@ -594,8 +595,8 @@
         <item index="0" class="java.lang.String" itemvalue="JUnit.MessageValidatorImplTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.MessageTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.AgeValidatorImplTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ServiceTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ServiceTest.notSendInDataBase" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.notSendInDataBase" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -671,7 +672,11 @@
       <created>1430737841354</created>
       <updated>1430737841354</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Some changes&#10;">
+      <created>1430737962859</created>
+      <updated>1430737962859</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -744,7 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/test/service/UserRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="24" selection-start="714" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="630">
           <folding>
@@ -926,16 +931,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/AgeValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/service/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="13" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
@@ -947,16 +945,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/User.java">
+    <entry file="file://$PROJECT_DIR$/src/service/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+        <state line="6" column="23" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/service/AgeValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="960">
+        <state line="5" column="22" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/service/UserRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="960">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -965,7 +970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/service/AgeValidatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="552" selection-end="552" vertical-scroll-proportion="0.67741936" vertical-offset="0" max-vertical-offset="620">
+        <state line="33" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.7983871" vertical-offset="0" max-vertical-offset="620">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
