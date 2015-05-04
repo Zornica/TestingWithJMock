@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58736968-c8b7-4ce4-92e9-f5a73ba4c7af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/Service.java" afterPath="$PROJECT_DIR$/src/service/Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/service/ServiceTest.java" afterPath="$PROJECT_DIR$/test/service/ServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/MessageSystem/MessageTest.java" afterPath="$PROJECT_DIR$/test/MessageSystem/MessageTest.java" />
     </list>
     <ignored path="TestingWhitJMock.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,35 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="1.282258" vertical-offset="0" max-vertical-offset="915">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceValidatorImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/ServiceValidatorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="55" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MessageSystem/Message.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,6 +79,15 @@
         <entry file="file://$PROJECT_DIR$/src/MessageSystem/MessageValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="28" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="30" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.67164177" vertical-offset="675" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -160,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/MessageSystem/Rule.java" />
         <option value="$PROJECT_DIR$/src/MessageSystem/PublisherImpl.java" />
         <option value="$PROJECT_DIR$/src/MessageSystem/Receiver.java" />
-        <option value="$PROJECT_DIR$/test/MessageSystem/MessageTest.java" />
         <option value="$PROJECT_DIR$/test/MessageSystem/MessageValidatorImplTest.java" />
         <option value="$PROJECT_DIR$/src/MessageSystem/MessageValidatorImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -174,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/MessageSystem/Publisher.java" />
         <option value="$PROJECT_DIR$/src/service/Service.java" />
         <option value="$PROJECT_DIR$/test/service/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/test/MessageSystem/MessageTest.java" />
       </list>
     </option>
   </component>
@@ -654,18 +632,22 @@
       <created>1430728846515</created>
       <updated>1430728846515</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add comments&#10;delete some test and methods">
+      <created>1430728979306</created>
+      <updated>1430728979306</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -706,7 +688,8 @@
     <MESSAGE value="Add more test" />
     <MESSAGE value="Finish program" />
     <MESSAGE value="Add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments" />
+    <MESSAGE value="Add comments&#10;delete some test and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comments&#10;delete some test and methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -840,13 +823,6 @@
         <state line="14" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="346" selection-end="346" vertical-scroll-proportion="-0.09677419" vertical-offset="255" max-vertical-offset="1605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="3" selection-start="39" selection-end="39" vertical-scroll-proportion="0.048387095" vertical-offset="0" max-vertical-offset="620">
@@ -877,6 +853,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.84754795" vertical-offset="0" max-vertical-offset="938">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="649" selection-end="649" vertical-scroll-proportion="0.49573562" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ServiceValidatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="240" selection-end="240" vertical-scroll-proportion="0.12793177" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MessageSystem/MessageValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="28" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -891,20 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MessageSystem/Publisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="10" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -912,26 +904,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/ServiceValidatorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/MessageSystem/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="5" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Service.java">
+    <entry file="file://$PROJECT_DIR$/test/MessageSystem/MessageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="91" column="30" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.67164177" vertical-offset="675" max-vertical-offset="1680">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1167" selection-end="1167" vertical-scroll-proportion="1.282258" vertical-offset="0" max-vertical-offset="915">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
