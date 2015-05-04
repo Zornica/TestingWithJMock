@@ -9,12 +9,12 @@ public class Service {
   private DataBase dataBase;
 
   //Constructor with one parameter
-  public Service(String age){
+  public Service(String age) {
     this.age = age;
   }
 
   //Constructor with three parameters
-  public Service(String age, ServiceValidator validator,DataBase dataBase) {
+  public Service(String age, ServiceValidator validator, DataBase dataBase) {
     this.age = age;
     this.validator = validator;
     this.dataBase = dataBase;

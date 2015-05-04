@@ -24,7 +24,7 @@ public class ServiceTest {
 
   @Test
   public void sendInDataBase() {
-    final Service service = new Service("12", validator,dataBase);
+    final Service service = new Service("12", validator, dataBase);
     context.checking(new Expectations() {
       {
         oneOf(validator).validate(service.age);
@@ -39,7 +39,7 @@ public class ServiceTest {
 
   @Test
   public void notSendInDataBase() {
-    final Service service = new Service("9", validator,dataBase);
+    final Service service = new Service("9", validator, dataBase);
     context.checking(new Expectations() {
       {
         oneOf(validator).validate(service.age);
