@@ -8,11 +8,24 @@ public class Service {
   private ServiceValidator validator;
   private DataBase dataBase;
 
-  public Service(String age) {
+  public Service(String age){
     this.age = age;
   }
 
+  public Service(String age, ServiceValidator validator,DataBase dataBase) {
+    this.age = age;
+    this.validator = validator;
+    this.dataBase = dataBase;
+  }
 
+
+  public boolean add() {
+    if (!validator.validate(age)) {
+      return false;
+    }
+    dataBase.add(age);
+    return true;
+  }
   public boolean isAdult() {
     if (Integer.parseInt(age) < 18) {
       return false;

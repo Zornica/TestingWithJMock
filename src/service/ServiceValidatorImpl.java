@@ -5,8 +5,8 @@ package service;
  */
 public class ServiceValidatorImpl implements ServiceValidator {
   @Override
-  public boolean validate(Service service) {
-    if (Integer.parseInt(service.age) < 10 || Integer.parseInt(service.age) > 100) {
+  public boolean validate(String age) {
+    if (Integer.parseInt(age) < 10 || Integer.parseInt(age) > 100) {
       return false;
     }
     return true;
