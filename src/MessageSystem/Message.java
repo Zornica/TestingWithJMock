@@ -8,6 +8,7 @@ public class Message {
   public final String title;
   public final String body;
 
+  //Constructor
   public Message(String name, String title, String body) {
     this.name = name;
     this.body = body;

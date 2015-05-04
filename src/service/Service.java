@@ -8,10 +8,12 @@ public class Service {
   private ServiceValidator validator;
   private DataBase dataBase;
 
+  //Constructor with one parameter
   public Service(String age){
     this.age = age;
   }
 
+  //Constructor with three parameters
   public Service(String age, ServiceValidator validator,DataBase dataBase) {
     this.age = age;
     this.validator = validator;
@@ -19,6 +21,7 @@ public class Service {
   }
 
 
+  //Checks is the age add in dataBase
   public boolean add() {
     if (!validator.validate(age)) {
       return false;
@@ -26,6 +29,7 @@ public class Service {
     dataBase.add(age);
     return true;
   }
+  //Checks is the age big than 18
   public boolean isAdult() {
     if (Integer.parseInt(age) < 18) {
       return false;
