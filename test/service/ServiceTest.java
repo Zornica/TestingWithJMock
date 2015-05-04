@@ -20,35 +20,37 @@ public class ServiceTest {
   DataBase dataBase;
 
   @Mock
-  ServiceValidator validator;
+  AgeValidator validator;
 
   @Test
   public void sendInDataBase() {
-    final Service service = new Service("12", validator, dataBase);
+    final User user =  new User("12");
+    final UserRepository service = new UserRepository(user, validator, dataBase);
     context.checking(new Expectations() {
       {
-        oneOf(validator).validate(service.age);
+        oneOf(validator).validate(user);
         will(returnValue(true));
 
-        oneOf(dataBase).add(service.age);
+        oneOf(dataBase).add(user);
         will(returnValue(true));
       }
     });
-    service.add();
+    service.register(user);
   }
 
   @Test
   public void notSendInDataBase() {
-    final Service service = new Service("9", validator, dataBase);
+    final User user =  new User("9");
+    final UserRepository service = new UserRepository(user, validator, dataBase);
     context.checking(new Expectations() {
       {
-        oneOf(validator).validate(service.age);
+        oneOf(validator).validate(user);
         will(returnValue(false));
 
-        never(dataBase).add(service.age);
+        never(dataBase).add(user);
       }
     });
-    service.add();
+    service.register(user);
   }
 
 

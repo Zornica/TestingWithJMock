@@ -9,41 +9,43 @@ import static org.hamcrest.core.Is.is;
  * Created by Zornitsa Petkova on 4/30/15.
  */
 public class MessageValidatorImplTest {
+  MessageValidatorImpl validator = new MessageValidatorImpl();
+
   @Test
-  public void Validate() {
-    MessageValidatorImpl validator = new MessageValidatorImpl();
+  public void validate() {
+
     Message message = new Message("ime", "title", "body");
     assertThat(validator.validate(message), is(true));
 
   }
 
   @Test
-  public void ValidateWithOutName() {
-    MessageValidatorImpl validator = new MessageValidatorImpl();
+  public void validateWithOutName() {
+
     Message message = new Message("", "title", "body");
     assertThat(validator.validate(message), is(false));
 
   }
 
   @Test
-  public void ValidateWithOutTitle() {
-    MessageValidatorImpl validator = new MessageValidatorImpl();
+  public void validateWithOutTitle() {
+
     Message message = new Message("ime", "", "body");
     assertThat(validator.validate(message), is(false));
 
   }
 
   @Test
-  public void ValidateWithOutBody() {
-    MessageValidatorImpl validator = new MessageValidatorImpl();
+  public void validateWithOutBody() {
+
     Message message = new Message("ime", "title", "");
     assertThat(validator.validate(message), is(false));
 
   }
 
   @Test
-  public void ValidateWithTooBigBody() {
-    MessageValidatorImpl validator = new MessageValidatorImpl();
+  public void validateWithTooBigBody() {
+
     Message message = new Message("", "title", "bodyhcfduos;djfckpsdkkl;kmjks;jk'vfop'aklsdkfksopaf'kaop'kad,lcvdfkvmopadfjkbvkdavjdf'pjbvko'[dfbofjjbk'fjbgi[gb'jofpdkmladp");
     assertThat(validator.validate(message), is(false));
 
