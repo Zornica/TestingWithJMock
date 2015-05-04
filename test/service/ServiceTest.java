@@ -51,15 +51,5 @@ public class ServiceTest {
     service.add();
   }
 
-  @Test
-  public void isNotAdult(){
-    final Service service = new Service("12");
-    assertThat(service.isAdult(), is (false));
-  }
 
-  @Test
-  public void isAdult(){
-    final Service service = new Service("18");
-    assertThat(service.isAdult(), is (true));
-  }
 }

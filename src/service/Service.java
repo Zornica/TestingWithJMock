@@ -29,12 +29,5 @@ public class Service {
     dataBase.add(age);
     return true;
   }
-  //Checks is the age big than 18
-  public boolean isAdult() {
-    if (Integer.parseInt(age) < 18) {
-      return false;
-    }
 
-    return true;
-  }
 }
