@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58736968-c8b7-4ce4-92e9-f5a73ba4c7af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/AgeValidatorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" afterPath="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/service/ServiceTest.java" afterPath="$PROJECT_DIR$/test/service/ServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestingWhitJMock.iws" />
@@ -76,22 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/service/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="13" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.31451613" vertical-offset="0" max-vertical-offset="620">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="527" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="945">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,17 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AgeValidatorImplTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/service/AgeValidatorImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AgeValidator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/AgeValidator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AgeValidatorImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AgeValidatorImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/AgeValidatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="302" selection-end="302" vertical-scroll-proportion="0.31451613" vertical-offset="0" max-vertical-offset="620">
+            <state line="13" column="1" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -163,14 +142,14 @@
         <option value="$PROJECT_DIR$/src/service/ServiceValidator.java" />
         <option value="$PROJECT_DIR$/src/service/AgeValidator.java" />
         <option value="$PROJECT_DIR$/src/service/DataBase.java" />
-        <option value="$PROJECT_DIR$/test/service/ServiceTest.java" />
         <option value="$PROJECT_DIR$/src/service/User.java" />
         <option value="$PROJECT_DIR$/src/service/Service.java" />
         <option value="$PROJECT_DIR$/src/service/UserRepository.java" />
         <option value="$PROJECT_DIR$/test/service/ServiceValidatorImplTest.java" />
-        <option value="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" />
         <option value="$PROJECT_DIR$/src/service/ServiceValidatorImpl.java" />
         <option value="$PROJECT_DIR$/src/service/AgeValidatorImpl.java" />
+        <option value="$PROJECT_DIR$/test/service/AgeValidatorImplTest.java" />
+        <option value="$PROJECT_DIR$/test/service/ServiceTest.java" />
       </list>
     </option>
   </component>
@@ -663,7 +642,11 @@
       <created>1430737328141</created>
       <updated>1430737328141</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;Add one method">
+      <created>1430737447470</created>
+      <updated>1430737447470</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +701,8 @@
     <MESSAGE value="Add comments&#10;delete some test and methods" />
     <MESSAGE value="ADD some method &#10;" />
     <MESSAGE value="&#10;ADD some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;ADD some changes" />
+    <MESSAGE value="&#10;Add one method" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Add one method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -910,33 +894,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/service/AgeValidatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="33" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/AgeValidatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/AgeValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="22" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="527" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="945">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,18 +924,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/service/AgeValidatorImplTest.java">
+    <entry file="file://$PROJECT_DIR$/test/service/ServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="9" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="960">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/AgeValidatorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/service/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="302" selection-end="302" vertical-scroll-proportion="0.31451613" vertical-offset="0" max-vertical-offset="620">
+        <state line="30" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.31451613" vertical-offset="0" max-vertical-offset="620">
           <folding />
         </state>
       </provider>

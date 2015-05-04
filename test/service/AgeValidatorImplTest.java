@@ -15,22 +15,19 @@ public class AgeValidatorImplTest {
 
   @Test
   public void Validate() {
-    User user =  new User("12");
-
-
+    User user = new User("12");
     assertThat(service.validate(user), is(true));
   }
 
   @Test
   public void ValidateToYoung() {
-
-     User user =  new User("9");
+    User user = new User("9");
     assertThat(service.validate(user), is(false));
   }
 
   @Test
   public void ValidateTooOld() {
-    User user =  new User("102");
+    User user = new User("102");
     assertThat(service.validate(user), is(false));
   }
 }
